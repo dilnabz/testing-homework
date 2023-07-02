@@ -55,6 +55,7 @@ export const Form: React.FC<FormProps> = ({ onSubmit }) => {
             <div className="mb-3">
                 <label htmlFor="f-name" className="form-label">Name</label>
                 <input
+                    data-testid="nameInput"
                     id="f-name"
                     type="text"
                     disabled={sent}
@@ -66,6 +67,7 @@ export const Form: React.FC<FormProps> = ({ onSubmit }) => {
             <div className="mb-3">
                 <label htmlFor="f-phone" className="form-label">Phone</label>
                 <input
+                    data-testid="phoneInput"
                     id="f-phone"
                     type="text"
                     disabled={sent}
@@ -76,6 +78,7 @@ export const Form: React.FC<FormProps> = ({ onSubmit }) => {
             <div className="mb-3">
                 <label htmlFor="f-address" className="form-label">Address</label>
                 <textarea
+                    data-testid="addressInput"
                     id="f-address"
                     disabled={sent}
                     rows={3}
