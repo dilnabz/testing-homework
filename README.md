@@ -38,8 +38,5 @@ $env:BUG_ID=”4”; npm start;
 
 Запуск unit-тестов с багом:
 Переходим в папку с юнит тестами и в терминале набираем:
-$env:BUG_ID="7"; npm run test:unit testingCatalog.test.tsx – файл, который хотетите протестировать.
-
-Пожалуйста, проверяйте каждый unit-тест отдельно в файлах testingCart.test.tsx и testingCatalog.test.tsx, добавляя к it - .only, а то они вместе падают ☹
-
+$env:BUG_ID="7"; npm run test:unit testingCatalog.test.tsx – файл, который хотите протестировать.
 
